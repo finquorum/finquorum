@@ -11,84 +11,83 @@
         .logo-font { font-family: 'Space Grotesk', sans-serif; }
     </style>
 </head>
-<body class="bg-zinc-950 text-white overflow-x-hidden">
+<body class="bg-zinc-50 text-zinc-950 overflow-x-hidden">
     <!-- Navbar -->
-    <nav class="border-b border-white/10 bg-zinc-950/80 backdrop-blur-lg fixed w-full z-50">
+    <nav class="border-b border-zinc-100 bg-white/95 backdrop-blur-lg fixed w-full z-50">
         <div class="max-w-screen-xl mx-auto px-6 py-5 flex items-center justify-between">
             <div class="flex items-center gap-x-3">
-                <div class="w-8 h-8 bg-gradient-to-br from-emerald-400 to-cyan-400 rounded-2xl flex items-center justify-center text-2xl">🤖</div>
+                <div class="w-8 h-8 bg-gradient-to-br from-emerald-500 to-cyan-500 rounded-2xl flex items-center justify-center text-2xl shadow-inner">🤖</div>
                 <span class="logo-font text-3xl font-semibold tracking-tighter">FinQuorum</span>
             </div>
             <div class="flex items-center gap-x-8 text-sm font-medium">
-                <a href="#" class="hover:text-emerald-400 transition">How it works</a>
-                <a href="#" class="hover:text-emerald-400 transition">For startups</a>
-                <a href="#" class="hover:text-emerald-400 transition">Pricing</a>
-                <a href="#" class="hover:text-emerald-400 transition">Blog</a>
+                <a href="#" class="hover:text-emerald-600 transition">How it works</a>
+                <a href="#" class="hover:text-emerald-600 transition">For startups</a>
+                <a href="#" class="hover:text-emerald-600 transition">Pricing</a>
+                <a href="#" class="hover:text-emerald-600 transition">Blog</a>
             </div>
             <div class="flex items-center gap-x-4">
                 <button onclick="alert('Log in coming soon!')" 
-                        class="px-6 py-2.5 text-sm font-medium rounded-2xl hover:bg-white/10 transition">Log in</button>
+                        class="px-6 py-2.5 text-sm font-medium rounded-2xl hover:bg-zinc-100 transition">Log in</button>
                 <button onclick="alert('Welcome to FinQuorum! 🎉 (Demo mode)')" 
-                        class="px-8 py-2.5 bg-emerald-500 hover:bg-emerald-600 text-black font-semibold rounded-2xl transition text-sm">Start free trial</button>
+                        class="px-8 py-2.5 bg-emerald-500 hover:bg-emerald-600 text-white font-semibold rounded-2xl transition text-sm">Start free trial</button>
             </div>
         </div>
     </nav>
 
     <!-- Hero -->
-    <div class="min-h-screen flex items-center pt-20 bg-[radial-gradient(at_bottom_right,#0a0a0a_0%,transparent_70%)]">
+    <div class="min-h-screen flex items-center pt-20 bg-[radial-gradient(at_bottom_right,#f8fafc_0%,transparent_70%)]">
         <div class="max-w-screen-xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
             <div class="space-y-8">
-                <div class="inline-flex items-center gap-x-2 bg-white/5 text-white/70 text-xs font-medium tracking-widest px-4 py-2 rounded-3xl border border-white/10">
+                <div class="inline-flex items-center gap-x-2 bg-emerald-100 text-emerald-700 text-xs font-medium tracking-widest px-4 py-2 rounded-3xl">
                     ✨ Now in beta for tech founders
                 </div>
                 
                 <h1 class="text-7xl md:text-8xl font-semibold tracking-tighter leading-none logo-font">
                     Your money.<br>
-                    <span class="bg-gradient-to-r from-emerald-400 via-cyan-400 to-violet-400 bg-clip-text text-transparent">Run by AI agents</span><br>
+                    <span class="bg-gradient-to-r from-emerald-600 via-cyan-600 to-violet-600 bg-clip-text text-transparent">Run by AI agents</span><br>
                     that actually debate.
                 </h1>
                 
-                <p class="text-2xl text-white/70 max-w-lg">
+                <p class="text-2xl text-zinc-600 max-w-lg">
                     Connect Stripe, your bank &amp; QuickBooks in 5 minutes.<br>
                     Watch your AI team argue, optimize, and execute 24/7.
                 </p>
 
                 <div class="flex flex-wrap gap-4">
                     <button onclick="alert('Trial starting… (demo)')" 
-                            class="px-10 py-6 bg-white text-black rounded-3xl text-xl font-semibold flex items-center gap-x-3 hover:scale-105 transition">
+                            class="px-10 py-6 bg-emerald-500 hover:bg-emerald-600 text-white rounded-3xl text-xl font-semibold flex items-center gap-x-3 transition">
                         Start 14-day free trial →
                     </button>
                     <button onclick="alert('Demo video coming soon!')" 
-                            class="px-8 py-6 border border-white/30 hover:border-white/60 rounded-3xl text-xl font-medium transition">
+                            class="px-8 py-6 border border-zinc-300 hover:border-zinc-400 rounded-3xl text-xl font-medium transition">
                         Watch 60-sec demo
                     </button>
                 </div>
 
-                <div class="flex items-center gap-x-8 text-sm text-white/60 pt-4">
+                <div class="flex items-center gap-x-8 text-sm text-zinc-500 pt-4">
                     <div>✓ No credit card</div>
                     <div>✓ Cancel anytime</div>
                     <div class="flex items-center gap-x-1">
-                        <span class="text-emerald-400">★★★★★</span> Trusted by 47 founders
+                        <span class="text-emerald-500">★★★★★</span> Trusted by 47 founders
                     </div>
                 </div>
             </div>
 
             <!-- Visual side -->
             <div class="relative hidden md:block">
-                <div class="absolute -inset-20 bg-[radial-gradient(#22c55e_1px,transparent_1px)] [background-size:40px_40px] opacity-10"></div>
-                <div class="bg-zinc-900 border border-white/10 rounded-3xl p-8 shadow-2xl relative">
-                    <div class="bg-black rounded-2xl p-6 space-y-6">
+                <div class="bg-white border border-zinc-200 rounded-3xl p-8 shadow-xl relative">
+                    <div class="bg-zinc-50 border border-zinc-100 rounded-2xl p-6 space-y-6">
                         <div class="flex justify-between items-center">
-                            <div class="text-emerald-400 text-sm font-medium">CashFlow Guardian</div>
-                            <div class="text-xs bg-emerald-500/10 text-emerald-400 px-3 py-1 rounded-full">Debating...</div>
+                            <div class="text-emerald-600 text-sm font-medium">CashFlow Guardian</div>
+                            <div class="text-xs bg-emerald-100 text-emerald-700 px-3 py-1 rounded-full">Debating...</div>
                         </div>
-                        <div class="h-2 bg-white/10 rounded-full overflow-hidden">
-                            <div class="h-2 w-3/4 bg-gradient-to-r from-emerald-400 to-cyan-400 rounded-full"></div>
+                        <div class="h-2 bg-zinc-200 rounded-full overflow-hidden">
+                            <div class="h-2 w-3/4 bg-gradient-to-r from-emerald-500 to-cyan-500 rounded-full"></div>
                         </div>
-                        <div class="text-white/70 text-sm">“Runway looks good… but if we cut unused tools we gain 3 months.”</div>
+                        <div class="text-zinc-600 text-sm">“Runway looks good… but if we cut unused tools we gain 3 months.”</div>
                         <div class="flex gap-3 text-xs">
-                            <div class="flex-1 bg-white/5 p-4 rounded-2xl">Tax Oracle says: Save $4,820</div>
-                            <div class="flex-1 bg-white/5 p-4 rounded-2xl">Risk Debater: 92% safe</div>
+                            <div class="flex-1 bg-white p-4 rounded-2xl border border-zinc-100">Tax Oracle says: Save $4,820</div>
+                            <div class="flex-1 bg-white p-4 rounded-2xl border border-zinc-100">Risk Debater: 92% safe</div>
                         </div>
                     </div>
                 </div>
@@ -97,16 +96,13 @@
     </div>
 
     <!-- Simple footer -->
-    <footer class="border-t border-white/10 py-12 text-center text-xs text-white/40">
+    <footer class="border-t border-zinc-100 py-12 text-center text-xs text-zinc-400">
         Built solo in 2026 • finquorum.io • The AI financial operating system
     </footer>
 
     <script>
         // Auto-apply Tailwind
-        function initializeTailwind() {
-            // Tailwind script already loaded via CDN
-        }
-        window.onload = initializeTailwind;
+        window.onload = () => {};
     </script>
 </body>
 </html>
